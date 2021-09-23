@@ -1,11 +1,13 @@
 p {
     font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    border: solid rgb(134, 146, 146);
 }
 h1 {
-    color: rgb(70, 168, 207);
-  }
-  h1 {
-      
+    color: aqua;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;
   }
   .image {
     background-image: url(https://i.pinimg.com/originals/57/de/3e/57de3e38bf83038fe71491a9553e2b40.png);
@@ -16,5 +18,29 @@ h1 {
   body {
       background-image: url("https://th.bing.com/th/id/R.68a1b73fbc0b9b9dbea5326b3ef396f5?rik=kiTVPjDV1SyU3w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fvvZQmlz.jpg&ehk=PIyiOILbB3LHpyYZ9jCB%2fJ7sPHwm9Le8fBaeLJkQCTQ%3d&risl=&pid=ImgRaw&r=0");
   }
-    
-  
+p{ 
+    border: 1px solid LightGrey;
+    padding: 20px 0px;
+    text-align: center;
+    width: 40%;
+    opacity: LightGrey;
+}
+
+table {
+color:aqua;
+border-color: 1px solid aqua;
+font-size: xx-large;
+text-align: center;
+background-color: grey;
+}
+h2 {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    text-align: center;
+    font: xx-large;
+}
