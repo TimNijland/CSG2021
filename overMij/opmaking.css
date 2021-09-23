@@ -1,0 +1,20 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: rgb(70, 168, 207);
+  }
+  h1 {
+      
+  }
+  .image {
+    background-image: url(https://i.pinimg.com/originals/57/de/3e/57de3e38bf83038fe71491a9553e2b40.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;
+  }
+  body {
+      background-image: url("https://th.bing.com/th/id/R.68a1b73fbc0b9b9dbea5326b3ef396f5?rik=kiTVPjDV1SyU3w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fvvZQmlz.jpg&ehk=PIyiOILbB3LHpyYZ9jCB%2fJ7sPHwm9Le8fBaeLJkQCTQ%3d&risl=&pid=ImgRaw&r=0");
+  }
+    
+  
