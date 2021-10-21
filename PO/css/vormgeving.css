@@ -1,6 +1,7 @@
-html, body {
-    padding: 0;
-    margin: 0;
+
+html{
+	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -11,14 +12,16 @@ body {
     padding-left: 10%;
 }
 
+
 #menu {
-	background: #0099CC;
+	background: #0099cccf;
 	background: linear-gradient(to bottom,  #0099CC,  #14208F);
 	color: #FFF;
 	height: 45px;
-	padding-left: 18px;
+	padding-left: 460px;
 	border-radius: 10px;
     margin-right: 250px;
+	margin-top: 30px;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -93,4 +96,26 @@ body {
 #menu ul.sub-menus a:hover{
 	background: #F2F2F2;
 	color: #444444;
+}
+p {
+	padding: 10px;
+	font-size: 24px;
+	color: #ffffff;
+	grid-row-end: 1;
+	grid-column-start: 3;
+	grid-column-end: 7;
+	background: linear-gradient(to bottom,  #0099CC,  #14208F);
+	text-align: center;
+}
+#grid {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  }
+#image {
+	width: 300px;
+	grid-column-start: 4;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: 6;
 }
