@@ -133,5 +133,11 @@ p {
 	padding: 10px;
 	font-size: 20px;
 	color: #ffffff;
-	
+	width: 30px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+body {
+	background-image: url('https://cdn.wallpapersafari.com/22/49/Y4lP9G.jpg');
 }
