@@ -22,19 +22,24 @@ body {
     margin-right: 250px;
 	margin-left: 10%;
 	margin-bottom: 40px;
+	/* ik heb dit menu met de css-generator gemaakt en dit wou ik gebruiken zodat ik mijn eigen vaardigheden om dit menu kon maken dit deel van het menu zorgt voor de vorm, groote en kleur van het menu dus alleen de balk */
+	/* de background met linear gradient gebruik ik later ook nog en dit zorgt ervoor dat de kleuren in elkaar over gaan en dat je een gemixte kleur krijgt */
 }
 #menu ul, #menu li {
 	margin: 0 auto;
 	padding: 0;
 	list-style: none
+	/* dit zorgt voor de automatische margin en padding van het menu */
 }
 #menu ul {
 	width: 100%;
+	/* dit zorgt voor de automatische width van het menu */
 }
 #menu li {
     float: left;
 	display: inline;
 	position: relative;
+	/* dit zorgt voor de positie van het menu in de site  */
 }
 #menu a {
 	display: block;
@@ -43,14 +48,17 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
+	/* dit zorgt voor de automatische margin en padding van het menu */	
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
 	margin-left: 5px;
+	/* dit zorgt voor de positie van het pijltje in het menu */
 }
 #menu li a:hover {
 	color: #0099CC;
 	background: #F2F2F2;
+	/* als je met je cursor over één van de vlakjes gaat krijg je deze kleuren */
 }
 #menu input {
 	display: none;
@@ -60,6 +68,7 @@ body {
 	width: 100%;
 	opacity: 0;
 	cursor: pointer
+	/* dit zorgt er voor dat de vakjes met de tekst op de goede positie staat vergeleken met het vak van het men en cursor zorgt ervoor dat als je je muis erover doet dat het menu weet dat je cursor erop staat en daar wat mee doet */
 }
 #menu ul.sub-menus{
 	height: auto;
@@ -69,21 +78,26 @@ body {
 	position: absolute;
 	z-index: 99;
 	display: none;
+	/* dit is voor de structuur van de sub menus, dus de menus die naar beneden komen als je met je cursor over het menu heen gaat. z-index zorgt voor de positie van de submenus dus of die voor iets of achter iets anders komt. */
 }
 #menu ul.sub-menus li {
 	display: block;
 	width: 100%;
+	/* dit zorgt voor de vorm van de sub menus dus dat de tekst allemaal goed onder elkaar komt */
 }
 #menu ul.sub-menus a {
 	color: #FFFFFF;
 	font-size: 16px;
+	/* dit zorgt voor de tekst in de sub menus dus de kleur en de groote */
 }
 #menu li:hover ul.sub-menus {
 	display: block
+	/* dit zorgt voor de blokken die onder de sub menus komen zodat je die kan zien en welke vorm */
 }
 #menu ul.sub-menus a:hover{
 	background: #F2F2F2;
 	color: #444444;
+	/* dit zorgt voor de kleur van het blok onder de sub menus als je met je cursor over de sub menus gaat */
 }
 p {
 	padding: 10px;
