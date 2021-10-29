@@ -48,7 +48,7 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
-	/* dit zorgt voor de automatische margin en padding van het menu */	
+	/* dit zorgt voor de tekst op het menu en de kleuren en groote */	
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
